@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: linear-gradient(287.56deg, #C2E9FB 0%, #A1C4FD 100%);
+  width: 100vw;
+  height: 100vh;
+  font-size: 1.6rem;
+  display: grid;
+  place-items: center;
+}
+
+main {
+  background: white;
+  width: 42.8rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  padding: 48px 64px 64px;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+.screen-01 h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: #34355B;
+}
+
+.screen-01 p {
+  padding: 1.6rem 0 4.8rem;
+  color: rgba(52, 53, 91, 0.8);
+}
+
+.screen-01 form {
+  display: flex;
+  gap: 0;
+  justify-content: center;
+}
+
+#inputNumber {
+  width: 6rem;
+  border: none;
+  background: #DCE2E9;
+  border-radius: 4px 0px 0px 4px;
+  padding: 1.6rem;
+  color: #34355B;
+}
+
+#tryButton {
+  border: none;
+  background: #7879F1;
+  border-radius: 0px 4px 4px 0px;
+  color: white;
+  font-weight: 700;
+  padding: 1.6rem;
+  cursor: pointer;
+  transition: background .3s;
+}
+
+.screen-01 #tryButton:hover,
+.screen-02 button:hover {
+  background: #383883;
+}
+
+.screen-02 h2 {
+  color: #34355B;
+  font-weight: 400;
+  font-size: 2.4rem;
+  padding-bottom: 3.3rem;
+}
+
+.screen-02 button {
+  border: none;
+  background: #7879F1;
+  border-radius: 4px;
+  padding: 1.6rem;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background .3s;
+}
+
+
+
+
